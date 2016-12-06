@@ -1,0 +1,334 @@
+body {
+	background-image: url("image1.jpg");
+    background: url("image1.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	color: #666;
+}
+
+/* Typography */
+h1#title {
+	font-family: normal 165% Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 3.2em;
+	color: white;
+	text-shadow: 0 0 10px rgba(0,0,0,0.8);
+	margin: 0 auto;
+	padding-top: 180px;
+	max-width: 300px;
+	text-align: center;
+	position: relative;
+	top: 0px;
+}
+
+h1#title span span {
+	font-weight: 400;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	line-height: 2.8em;
+	text-align:center;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+a:hover {
+	color: #aeaeae;
+}
+
+p.small {
+	font-size: 0.8em;
+	margin: 20px 0 0;
+}
+
+
+/* Layout */
+.container {
+	margin:30;
+}
+
+.top {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.login-box {
+	background-color: white;
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+	top: 10px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+	margin-top:120px;
+}
+#strapline
+{ width: 940px;
+  height: 80px;
+  text-align: center; 
+  margin: 0 auto;} 
+  
+  #welcome
+{ width: 910px;
+  float: left;
+  height: 70px;
+  padding-top: 10px;  
+  margin: 0 auto;}
+  
+  #welcome H3
+{ font: bold 300% 'News Cycle', Arial, sans-serif;
+  letter-spacing: -3px;
+  color: #FFF;} 
+  
+  header
+{ height: 150px;
+  background: #1D1D1D;
+  background: -moz-linear-gradient(#535353, #000);
+  background: -o-linear-gradient(#535353, #000);
+  background: -webkit-linear-gradient(#535353, #000);}
+  
+.login-box .box-header {
+	background-color: #0043A8;
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.login-box label {
+	font-weight: 700;
+	font-size: .8em;
+	color: #888;
+	letter-spacing: 2px;
+	line-height: 2em;
+	text-align:center;
+}
+.login-box td{
+	font: bold 82% 'News Cycle', Arial, sans-serif;
+}
+.form input:focus, textarea:focus { border: 1px solid #ff5400; background-color: rgba(255, 255, 255, 1); }
+.block label{
+	font: bold 82% 'News Cycle', Arial, sans-serif;
+}
+.block input  {
+	margin-bottom: 80px;
+	
+	padding: 8px;
+	font-family:Arial, Helvetica, sans-serif; 
+	border: 1px solid #ff5400;
+	border-radius: 2px;
+	font-size: .9em;
+	color: #888;
+	text-align:center;
+}
+.form .select-style {
+  border: 0px solid #FFF;
+  color: #555;
+  font-size: normal 95% ;
+  margin: 0;
+  
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;}
+  
+.block select{
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: .9em;
+	color: #888;
+}
+
+
+.login-box input {
+	margin-bottom: 0px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: .9em;
+	color: black;
+}
+
+.login-box input:focus {
+	outline: none;
+	border-color: #665851;
+	transition: 0.5s;
+	color: #665851;
+}
+
+.login-box button {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #665851;
+	cursor:pointer;
+	outline: none;
+	width: 10%;
+}
+
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+
+.selected {
+	color: #665851!important;
+	transition: 0.5s;
+}
+
+.login-box1
+{
+  background-color: white;
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+	top: 10px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+	text-align:center;
+	margin-top:110px;	
+}
+
+.login-box1 .box-header 
+{
+	background-color: #0043A8;
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.login-box1 label 
+{
+	font-weight: 700;
+	font-size: .8em;
+	color: #888;
+	letter-spacing: 2px;
+	line-height: 2em;
+	text-align:center;
+}
+
+.login-box1 td{
+	font: bold 82% 'News Cycle', Arial, sans-serif;
+}
+
+.login-box1 input {
+	margin-bottom: 0px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: .9em;
+	color: black;
+}
+
+.login-box1 input:focus {
+	outline: none;
+	border-color: #665851;
+	transition: 0.5s;
+	color: #665851;
+}
+
+.login-box1 button {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #665851;
+	cursor:pointer;
+	outline: none;
+	width: 10%;
+}
+
+.login-box1 button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.alert1 {
+    padding: 20px;
+    background-color: #ffcccc; 
+    color: #000000;
+    margin-bottom: 15px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:190px;
+    position:fixed;
+}
+
+
+.alert2 {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:190px;
+    position:fixed;
+}
+
+.alert3 {
+    padding: 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    margin-bottom: 15px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:190px;
+    position:fixed;
+    
+}
+
+.closebtn1 {
+    margin-left: 15px;
+    color:#000000;
+    font-weight: bold;
+    float: right;
+    font-size: 40px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* The close button */
+.closebtn2 {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 40px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+
