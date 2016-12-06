@@ -28,8 +28,11 @@ public class AllotServlet extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
-
-	/**
+/*public void test()
+{
+	
+}
+*/	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
